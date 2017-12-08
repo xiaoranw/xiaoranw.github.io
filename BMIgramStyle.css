@@ -1,0 +1,36 @@
+path:hover {
+  fill-opacity: .5;
+  border-style: dotted;
+}
+
+body {
+  font: 11px sans-serif;
+}
+
+
+#map {
+  height: 0vh;
+  /* width: 200;
+	height: 500; */
+} 
+
+.legend {
+  position: absolute;
+  left: 1100px;
+  top: 450px;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;           
+  width: 130px;                  
+  height: 60px;                 
+  padding: 8px;             
+  font: 12px sans-serif;        
+  background: lightgray;   
+  border: 1px;      
+  border-radius: 0px;             
+  pointer-events: none;    
+  font-family: "Century Gothic", "Helvectica", Arial, sans-serif; 
+
+}

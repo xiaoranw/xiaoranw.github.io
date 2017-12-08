@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>External Line Chart</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="BMIgramStyle.css" />
+    <!--<link rel="stylesheet" type="text/css" href="jquery-ui.css"> -->
+    <link rel="stylesheet" href="sliderStyleSheet.css">
+    <link rel="stylesheet" href="TimeseriesStyle.css">
+    <link rel="stylesheet" type="text/css" href="./life.css" />
+
+    <script src="d3.v3.min.js"></script>
+    <script src="BMIgram.js"></script>
+    <script type="text/javascript" src="./js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="./js/d3.js"></script>
+    <script type="text/javascript" src="./js/d3.time.js"></script>
+    <script type="text/javascript" src="./js/d3.csv.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Bevan|Cardo' rel='stylesheet' type='text/css'>
+    <script src="timeseries.js"></script>
+
+</head>
+
+
+<body style="background-color: #D1CBAD;">
+    <h1 style="font-family:Castellar; font-size:300%;" , "font-size:300%;">
+        BMIgram - Line chart
+    </h1>
+    <h3 style="font-family:Calibri;">The line chart reflects the tendency of BMI rate change over the years. </br>Each line represents a state.</h3>
+    <!-- <div id="map1"></div> -->
+    <p style="text-align:right;">Zhouxing Liao, Shaffan Mustafa, Madelyn Onweller, Xiaoran Wang </br> Geog 5201 Group Project
+        </br> Instructor: Morteza Karimzadeh</p>
+
+
+    <div id="vis"></div>
+    <div id="main-wrapper">
+        <div id="content">
+            <div id="blurb">
+                <div id="default-blurb">
+                    <h2>BMI rate</h2>
+                    <p>Any adult with a BMI of 30 or higher is considered obese. </p>
+                </div>
+                <div id="blurb-content"></div>
+            </div>
+
+            <div id="vis"></div>
+            <script type="text/javascript" src="./timeseries.js"></script>
+
+
+</body>
+
+</html>
