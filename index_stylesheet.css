@@ -1,0 +1,17 @@
+	h2 {
+		position: absolute;
+		left: 100px;
+		top: 130px;
+		text-shadow: 2px 2px #BC8F7B;
+	}
+	img {
+		position: absolute;
+		right: 15px;
+		top: 70px;
+	}
+
+	p2 {
+		position: absolute;
+		right: 15px;
+		bottom: 20px;
+	}
